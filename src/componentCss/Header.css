@@ -1,0 +1,70 @@
+#group_145 {
+	top: 36px;
+	left: 37px;
+	width: 42px;
+	height: 42px;
+	background:rgba(255,255,255,0);
+}
+
+.iconLayout{
+    top: 40px;
+	left: 95px;
+
+   
+    
+
+}
+#contact_directory {
+	top: 40px;
+	left: 95px;
+	width: 278.8px;
+	height: 42.8px;
+	overflow: hidden;
+	font-size: 28px;
+	font-weight: 600;
+	text-align: left;
+	color:#2B308B;
+    margin-left: 20px;
+}
+
+.headerText{
+  
+
+	
+	
+	color:#000080;
+}
+
+#book_a_free_demo {
+	
+	width: 147.5px;
+	height: 27.5px;
+	
+	font-family: Poppins;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: left;
+	color:#F8F9FD;
+}
+
+.bookButton{
+    width: 157px;
+	height: 41px;
+    background-color:  #1aff8c;
+
+    border-radius: 15px;
+    display: grid;
+    align-items: center;
+    color:white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
+    
+}
+
+#bg_frame_58253 {
+	top: 0px;
+	left: 0px;
+	width: 48px;
+	height: 48px;
+	background:rgba(255,255,255,0);
+}

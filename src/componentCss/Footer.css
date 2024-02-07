@@ -1,0 +1,58 @@
+
+
+.footerParentDiv{
+
+  display:flex;
+ 
+  
+ 
+
+
+
+
+
+
+
+
+}
+
+#contact_directory {
+	
+	
+	font-size: 28px;
+	font-weight: 600;
+    color:#2B308B;
+   
+   
+    
+}
+
+#lorem_ipsum_dolor_sit {
+	
+
+	font-size: 20px;
+	
+	color:#5A81FA;
+}
+
+.footerItem1{
+
+
+    width: 20vw;
+    height: 30vh;
+    
+}
+
+.footerItem2{
+    width: 20vw;
+    height: 30vh;
+
+
+
+}
+#__p__contact {
+
+	font-size: 23px;
+	
+	color:#5A81FA;
+}

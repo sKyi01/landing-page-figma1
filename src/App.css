@@ -39,6 +39,8 @@
 
 
 body {
+  position: relative;
+  width: 100%;
   margin: 1%; 
   background:rgba(248,249,253,1);/* Adjust the margin value as needed */
 }

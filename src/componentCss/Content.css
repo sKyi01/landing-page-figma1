@@ -2,7 +2,7 @@
 
     margin-top: 35px;
 
-    height: 80vh;
+    height: 90vh;
 
     display: flex;
     width: 100%;
@@ -22,15 +22,24 @@
 
 .content1{
     width:  50%;
-    padding: 3vw;
+    padding: 3.5vw;
     
 }
 .content2{
     width: 50%;
     display: flex;
-    justify-content: flex-start;
+    height: 90%;
+    
+    
 
   
+}
+
+.content2 img{
+
+    width: 100%;
+    height: 90%;
+    padding-right: 140px;
 }
 
 #we_are_the_go_to_digital_resource_to_help_you_drive_outreach {
@@ -47,7 +56,7 @@
 .workMail{
 
 margin-top: 30px;
-    width: 31vw;
+    width: 39vw;
     height:10vh;
     border-radius: 30px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* Adjust the values as needed */
@@ -60,8 +69,8 @@ margin-top: 30px;
 .workEmail1{
     width: 60%;
     height:10vh;
-    border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
+    border-top-left-radius: 2vw;
+  border-bottom-left-radius: 2vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,8 +83,8 @@ margin-top: 30px;
     
     height:10vh;
     width:40%;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-top-right-radius: 2vw;
+    border-bottom-right-radius: 2vw;
     background-color: #0DEDA7;
     display: flex;
   justify-content: center;
@@ -106,6 +115,67 @@ margin-top: 30px;
 	color:#F8F9FD;
 }
 
+#_bg__frame_58590 {
+	
+	width: 1237px;
+	height: 558px;
+	background:rgba(255,255,255,0);
+}
+#no_credit_card_required {
+	top: 385px;
+	left: 378px;
+	width: 152.2px;
+	height: 18.2px;
+	overflow: hidden;
+	font-family: Montserrat;
+	font-size: 12px;
+	text-align: left;
+	color:#B3AFAF;
+}
+
+
+
+
+.giButton{
+
+
+    display: flex;
+    height: 6vh;
+    margin-top: 35px;
+    gap: 5vw;
+}
+
+.gButton{
+
+    width: 18vw;
+    border: 1px solid #C5C7E0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.iButton{
+    width: 18vw;
+    border: 1px solid #C5C7E0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+#signup_with_google {
+	
+
+	font-size: 1vw;
+	text-align: left;
+	color:#5A81FA;
+}
+
+
 
 
 
@@ -115,6 +185,11 @@ margin-top: 30px;
 
 @media (max-width: 768px) {
 
+    body{
+
+        margin: 1%;
+    }
+
 
 
 
@@ -123,15 +198,61 @@ margin-top: 30px;
 
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;;
+        text-align: left;
+        align-items: center;
+        height: 60vh;
+       
+      
+        
+       
     }
 
     .content1{
-        
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;;
 
+        width: 90vw;
+        height:25vh;
+
+        margin:auto;
+
+    
+    }
+
+    .workMail{
+
+        width:"80vw";
+        height: 3vh;
+    }
+
+    .workEmail1{
+        width:"80vw";
+        height: 3vh;
 
     }
-}
+    .workEmail2{
+
+        width:"80vw";
+        height: 3vh;
+    }
+    .content2 img{
+
+
+        width: 90vw;
+        height: 25vh;
+        margin: auto;
+        margin-top: 10vw;
+       
+    }
+    #creditCard{
+   
+        display: flex;
+        flex-direction: column;
+     }
+
+     .giButton{
+
+        display: flex;
+        flex-direction: column;
+        
+     }
+
+}   

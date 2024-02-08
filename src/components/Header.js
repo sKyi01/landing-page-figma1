@@ -74,7 +74,7 @@ const Header = () => {
             </a>
 
             <div class="bookButton" style={{ marginLeft: "5vw" }}>
-              <a>Book a free demo</a>
+              <a style={{color:"white"}}href="#">Book a free demo</a>
             </div>
 
             <div id="" style={{ marginLeft: "2vw" }}>
@@ -89,7 +89,7 @@ const Header = () => {
                 marginLeft:"10px"
               }}
             >
-              <a>Hi! Please Sign In</a>
+              <a href="#" style={{ color: "#000080"}}>Hi! Please Sign In</a>
             </div>
           </div>
         </div>

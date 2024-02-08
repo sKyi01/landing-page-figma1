@@ -1,10 +1,17 @@
 import React from "react";
 import "../componentCss/Footer.css";
-import HomeButton from "../assets/home.png"
+import HomeButton from "../assets/home.png";
+import MailIcon from "../assets/mailbox.png";
+import PhoneIcon from "../assets/phoneIcon.png";
+import TeleIcon from "../assets/teleIcon.png";
+import FacebookIcon from "../assets/facebook.png";
+import LinkedinIcon from "../assets/linkedin.png";
+import TwitterIcon from "../assets/twitter.png";
 
 
 const Footer = () => {
   return (
+    <div>
     <div className="footerParentDiv" style={{ marginTop: "300px" }}>
       <div class="footerItem1">
         <div id="contact_directory">Contact Directory container</div>
@@ -25,28 +32,42 @@ const Footer = () => {
       </div>
 
 
-      <div  className="footerItem2"  style={{ textAlign: "left", marginLeft: "20em" }}>
+      <div class="footerItem2">
 
-      <p
-      id="__p__contact"
-     
-    >
-      CONTACT
-    </p>
-    <br/>
-    <div style={{display: "flex",alignItems: "center"}}>
-    <img style={{marginRight: "10px"}} src={HomeButton} alt="Icon" />
-    <p>New York, NY 10012, US</p>
+
+      <div class="item1">
+      <div id="__p__contact" >
+	CONTACT
+</div>
+<br/>
+
+<div style={{}}>
+<a href="#" style={{ color: '#000080',fontWeight:600 }}><img src={HomeButton} alt="Home" /> New York, NY 10012, US</a>
+<br /><br />
+<a  href="#" style={{ color: '#000080',fontWeight:600  }}><img src={MailIcon} alt="mail" /> info@gmail.com</a>
+<br /><br />
+<a href="#"  style={{ color: '#000080' ,fontWeight:600 }}><img src={PhoneIcon} /> + 01 234 567 88</a>
+<br /><br />
+<a href="#" style={{ color: '#000080',fontWeight:600  }}><img src={TeleIcon} /> + 01 234 567 89</a>
 </div>
 
- 
+      
+      </div>
 
+      <div class="item2" >
+      <div id="__p__contact" >
+      PRODUCTS
+    </div>
     <br/>
 
+    <a href="#" style={{ color: '#000080',fontWeight:600 }}> Platform</a>
+    <br/><br/>
+    <a href="#" style={{ color: '#000080',fontWeight:600 }}> Discover</a>
+    <br/><br/>
+    <a href="#" style={{ color: '#000080',fontWeight:600 }}> Resources</a>
+    <br/><br/>
+    <a href="#" style={{ color: '#000080',fontWeight:600 }}> Job</a>
 
-
-      
-      
       
       
       
@@ -54,10 +75,62 @@ const Footer = () => {
       </div>
 
 
+      <div class="item3">
+
+      <div id="__p__contact" >
+      USEFUL LINKS
+    </div>
+
+    <br/>
+
+    <a href="#" style={{ color: '#000080',fontWeight:600 }}> Your Account</a>
+    <br/><br/>
+    <a href="#" style={{ color: '#000080',fontWeight:600 }}> Discover</a>
+    <br/><br/>
+    <a href="#" style={{ color: '#000080',fontWeight:600 }}> Connections</a>
+    <br/><br/>
+    <a href="#" style={{ color: '#000080',fontWeight:600 }}> Help</a>
+      
+      
+      
+      </div>
+      
+      
+      
+      
+      </div>
+
+
+      
 
 
 
 
+
+    </div>
+    <div class="socialIcons">
+
+    <span><img style={{width:"3vw",height:"5vg"}} src={FacebookIcon}/></span>
+    <span><img style={{width:"3vw",height:"5vg"}} src={LinkedinIcon}/></span>
+    <span><img style={{width:"3vw",height:"5vg"}} src={TwitterIcon}/></span>
+    <span><img style={{width:"3vw",height:"5vg"}} src={TwitterIcon}/></span>
+
+
+
+
+
+
+      
+      
+      
+      </div>
+
+      <div className="line">
+      
+      </div>
+      <footer id="__p__contact" style={{marginTop:"20px",fontSize:"1.3vw"}}>
+      <p>&copy; 2022 Copyright: @BlackCoffer (OPC) Pvt. Ltd</p>
+    </footer>
 
     </div>
   );

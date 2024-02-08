@@ -3,6 +3,7 @@
 .footerParentDiv{
 
   display:flex;
+  
  
   
  
@@ -44,8 +45,19 @@
 }
 
 .footerItem2{
-    width: 20vw;
-    height: 30vh;
+
+    width:80vw;
+    
+
+    display: flex;
+
+    text-align: left;
+    justify-content: flex-end;
+   margin-right: 10px;
+   gap: 8vw
+
+  
+    
 
 
 
@@ -56,3 +68,64 @@
 	
 	color:#5A81FA;
 }
+
+
+.socialIcons{
+
+    margin: 20px;
+
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    gap:5vw;
+    align-items: flex-end;
+
+
+
+    
+}
+
+.line {
+    border-bottom: 3px solid #5A81FA; /* You can set the color to your preference */
+  }
+
+
+  @media (max-width: 767px) {
+  
+
+    .footerParentDiv{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+
+    }
+    .footerItem1{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+        width: 25vmax;
+
+    }
+    .footerItem2{
+
+        
+     display: flex;
+     justify-content: center;
+        margin:auto;
+        margin-top: 30px;
+        padding-left: 5px;
+        padding-right: 5px;
+
+
+    }
+
+
+
+
+  }
+  

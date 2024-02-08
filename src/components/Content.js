@@ -49,8 +49,8 @@ const Content = () => {
 
           <div className="gButton">
 
-          <span id="signup_with_google"><img style={{paddingRight:"25px"}} src={GoogleIcon}/>
-          Signup with Google
+          <span id="signup_with_google"><a href="#"><img style={{paddingRight:"25px"}} src={GoogleIcon}/>
+          Signup with Google</a>
         </span>
           
           
@@ -58,8 +58,8 @@ const Content = () => {
     
           <div className="iButton">
 
-          <span id="signup_with_google"><img style={{paddingRight:"25px"}} src={LinkedInIcon}/>
-          Signup with LinkedIn
+          <span id="signup_with_google"><a href="#"><img style={{paddingRight:"25px"}} src={LinkedInIcon}/>
+          Signup with LinkedIn</a>
         </span>
           
           
@@ -86,7 +86,7 @@ const Content = () => {
       
 
       <div>
-        <img style={{ width: "90vw" }} src={Frame2} />
+        <img style={{ width: "100%" }} src={Frame2} />
       </div>
 
 

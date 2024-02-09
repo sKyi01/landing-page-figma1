@@ -1,16 +1,335 @@
-import React from 'react'
-import "../componentCss/ExploreData.css"
-
+import React from "react";
+import "../componentCss/ExploreData.css";
+import Flag from "../assets/flag.jpg";
 const ExploreData = () => {
   return (
     <div>
+      <div className="heading">
+        <div id="explore_data_by_categories" style={{ textAlign: "center" }}>
+          Explore Data by Categories
+          <br />
+          <div id="find_the_right_data_for_your_business__choose_from_the_given_data_categories">
+            Find the right data for your business. Choose from the given data
+            categories
+          </div>
+        </div>
+      </div>
 
-    <div>
-    
-    </div>
-      
-    </div>
-  )
-}
+      <div className="categories">
+        <div className="item1">
+          <div id="title___">Fashion and lifestyle</div>
+          <span id="subtitle___">
+            <img src={Flag} style={{ paddingRight: "7px" }} /> Based in India
+          </span>
 
-export default ExploreData
+          <div id="text___">
+            At ABC Analytics, we're the pioneers of tomorrow's technology. We're
+            a dynamic team of creative minds, tech enthusiasts, and problem
+            solvers, united by a passion for...
+            <div
+              id="bottomText"
+              style={{ height: "10vh", textAlign: "left", marginTop: "15px" }}
+            >
+              <span id="perfect_runs_long_co">
+                {" "}
+                <b style={{ paddingRight: "1vw", color: "black" }}>100%</b>{" "}
+                Deterministic data{" "}
+              </span>
+              <br />
+              <span id="perfect_runs_long_co">
+                {" "}
+                <b style={{ paddingRight: "1.8vw", color: "black" }}>
+                  1k+
+                </b>{" "}
+                Brands
+              </span>
+              <br />
+
+              <span id="perfect_runs_long_co">
+                {" "}
+                <b style={{ paddingRight: "1.4vw", color: "black" }}>
+                  1M+
+                </b>{" "}
+                Users{" "}
+              </span>
+
+              <div id="viewDataBtn">
+                <button id="viewDataBtn1"
+                  
+                >
+                  <p
+                    style={{ fontSize: "15px", color: "white", margin: "auto" }}
+                  >
+                    View Data
+                  </p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="item1">
+          <div id="title___">Medical</div>
+          <span id="subtitle___">
+            <img src={Flag} style={{ paddingRight: "7px" }} /> Based in India
+          </span>
+
+          <div id="text___">
+            At ABC Analytics, we're the pioneers of tomorrow's technology. We're
+            a dynamic team of creative minds, tech enthusiasts, and problem
+            solvers, united by a passion for...
+            <div
+              id="bottomText"
+              style={{ height: "10vh", textAlign: "left", marginTop: "15px" }}
+            >
+              <span id="perfect_runs_long_co">
+                {" "}
+                <b style={{ paddingRight: "1vw", color: "black" }}>100%</b>{" "}
+                Deterministic data{" "}
+              </span>
+              <br />
+              <span id="perfect_runs_long_co">
+                {" "}
+                <b style={{ paddingRight: "1.8vw", color: "black" }}>
+                  1k+
+                </b>{" "}
+                Brands
+              </span>
+              <br />
+
+              <span id="perfect_runs_long_co">
+                {" "}
+                <b style={{ paddingRight: "1.4vw", color: "black" }}>
+                  1M+
+                </b>{" "}
+                Users{" "}
+              </span>
+
+              <div id="viewDataBtn">
+                <button id="viewDataBtn1"
+                 
+                >
+                  <p
+                    style={{ fontSize: "15px", color: "white", margin: "auto" }}
+                  >
+                    View Data
+                  </p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="item1">
+          <div id="title___">Lawyers</div>
+          <span id="subtitle___">
+            <img src={Flag} style={{ paddingRight: "7px" }} /> Based in India
+          </span>
+
+          <div id="text___">
+            At ABC Analytics, we're the pioneers of tomorrow's technology. We're
+            a dynamic team of creative minds, tech enthusiasts, and problem
+            solvers, united by a passion for...
+            <div
+              id="bottomText"
+              style={{ height: "10vh", textAlign: "left", marginTop: "15px" }}
+            >
+              <span id="perfect_runs_long_co">
+                {" "}
+                <b style={{ paddingRight: "1vw", color: "black" }}>100%</b>{" "}
+                Deterministic data{" "}
+              </span>
+              <br />
+              <span id="perfect_runs_long_co">
+                {" "}
+                <b style={{ paddingRight: "1.8vw", color: "black" }}>
+                  1k+
+                </b>{" "}
+                Brands
+              </span>
+              <br />
+
+              <span id="perfect_runs_long_co">
+                {" "}
+                <b style={{ paddingRight: "1.4vw", color: "black" }}>
+                  1M+
+                </b>{" "}
+                Users{" "}
+              </span>
+
+              <div id="viewDataBtn">
+                <button id="viewDataBtn1"
+                 
+                >
+                  <p
+                    style={{ fontSize: "15px", color: "white", margin: "auto" }}
+                  >
+                    View Data
+                  </p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="item1">
+          {" "}
+          <div id="title___">Fashion and lifestyle</div>
+          <span id="subtitle___">
+            <img src={Flag} style={{ paddingRight: "7px" }} /> Based in India
+          </span>
+          <div id="text___">
+            At ABC Analytics, we're the pioneers of tomorrow's technology. We're
+            a dynamic team of creative minds, tech enthusiasts, and problem
+            solvers, united by a passion for...
+            <div
+              id="bottomText"
+              style={{ height: "10vh", textAlign: "left", marginTop: "15px" }}
+            >
+              <span id="perfect_runs_long_co">
+                {" "}
+                <b style={{ paddingRight: "1vw", color: "black" }}>100%</b>{" "}
+                Deterministic data{" "}
+              </span>
+              <br />
+              <span id="perfect_runs_long_co">
+                {" "}
+                <b style={{ paddingRight: "1.8vw", color: "black" }}>
+                  1k+
+                </b>{" "}
+                Brands
+              </span>
+              <br />
+
+              <span id="perfect_runs_long_co">
+                {" "}
+                <b style={{ paddingRight: "1.4vw", color: "black" }}>
+                  1M+
+                </b>{" "}
+                Users{" "}
+              </span>
+
+              <div id="viewDataBtn">
+                <button id="viewDataBtn1"
+                 
+                >
+                  <p
+                    style={{ fontSize: "15px", color: "white", margin: "auto" }}
+                  >
+                    View Data
+                  </p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="item1">
+          {" "}
+          <div id="title___">Medical</div>
+          <span id="subtitle___">
+            <img src={Flag} style={{ paddingRight: "7px" }} /> Based in India
+          </span>
+          <div id="text___">
+            At ABC Analytics, we're the pioneers of tomorrow's technology. We're
+            a dynamic team of creative minds, tech enthusiasts, and problem
+            solvers, united by a passion for...
+            <div
+              id="bottomText"
+              style={{ height: "10vh", textAlign: "left", marginTop: "15px" }}
+            >
+              <span id="perfect_runs_long_co">
+                {" "}
+                <b style={{ paddingRight: "1vw", color: "black" }}>100%</b>{" "}
+                Deterministic data{" "}
+              </span>
+              <br />
+              <span id="perfect_runs_long_co">
+                {" "}
+                <b style={{ paddingRight: "1.8vw", color: "black" }}>
+                  1k+
+                </b>{" "}
+                Brands
+              </span>
+              <br />
+
+              <span id="perfect_runs_long_co">
+                {" "}
+                <b style={{ paddingRight: "1.4vw", color: "black" }}>
+                  1M+
+                </b>{" "}
+                Users{" "}
+              </span>
+
+              <div id="viewDataBtn">
+                <button id="viewDataBtn1"
+                 
+                >
+                  <p
+                    style={{ fontSize: "15px", color: "white", margin: "auto" }}
+                  >
+                    View Data
+                  </p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="item1">
+          {" "}
+          <div id="title___">Lawyers</div>
+          <span id="subtitle___">
+            <img src={Flag} style={{ paddingRight: "7px" }} /> Based in India
+          </span>
+          <div id="text___">
+            At ABC Analytics, we're the pioneers of tomorrow's technology. We're
+            a dynamic team of creative minds, tech enthusiasts, and problem
+            solvers, united by a passion for...
+            <div
+              id="bottomText"
+              style={{ height: "10vh", textAlign: "left", marginTop: "15px" }}
+            >
+              <span id="perfect_runs_long_co">
+                {" "}
+                <b style={{ paddingRight: "1vw", color: "black" }}>100%</b>{" "}
+                Deterministic data{" "}
+              </span>
+              <br />
+              <span id="perfect_runs_long_co">
+                {" "}
+                <b style={{ paddingRight: "1.8vw", color: "black" }}>
+                  1k+
+                </b>{" "}
+                Brands
+              </span>
+              <br />
+
+              <span id="perfect_runs_long_co">
+                {" "}
+                <b style={{ paddingRight: "1.4vw", color: "black" }}>
+                  1M+
+                </b>{" "}
+                Users{" "}
+              </span>
+
+              <div id="viewDataBtn">
+                <button id="viewDataBtn1"
+                
+                >
+                  <p
+                    style={{ fontSize: "15px", color: "white", margin: "auto" }}
+                  >
+                    View Data
+                  </p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ExploreData;

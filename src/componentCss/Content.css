@@ -187,7 +187,10 @@ margin-top: 30px;
 
     body{
 
-        margin: 1%;
+        margin: auto;
+
+   
+       
     }
 
 
@@ -253,6 +256,51 @@ margin-top: 30px;
         display: flex;
         flex-direction: column;
         
+     }
+
+     #googleIcon{
+
+        width: 8vw;
+        
+     }
+
+     #frame{
+
+        margin-top: 60px;
+     }
+
+     #all_the_connections_you_need {
+
+        font-size: 8vw;
+        height: 20vh;;
+     }
+
+     #we_are_the_go_to_digital_resource_to_help_you_drive_outreach{
+
+
+        font-size: 4vw;
+     }
+
+     .workMail{
+
+        width: 80%;
+        overflow: auto;
+
+        
+        
+     }
+     .workEmail1{
+
+
+
+
+     }
+     #no_credit_card_required {
+
+
+        padding: 20px;
+        font-size: 2.5vw;
+        overflow: visible;
      }
 
 }   

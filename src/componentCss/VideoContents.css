@@ -211,3 +211,127 @@
 
 
 }
+
+.signContact{
+
+    display: flex;
+    background-color: #F0F3FC;
+   
+
+
+
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+}
+
+
+.signContact1{
+
+    width: 50%;
+    height: 50vh;
+    text-align: left;
+    padding-top: 2vw;
+   
+
+}
+
+.signContact2{
+
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 2vw;;
+
+}
+
+#contact_directory_bottom{
+
+   
+       
+        font-size: 2vw;
+        font-weight: bold;
+        text-align: left;
+        color:#000080;
+        padding-left: 3vw;
+
+    
+}
+
+
+#signUp{
+
+    font-size: 1.5vw;
+	font-weight: bold;
+	text-align: left;
+	color:#000080;
+}
+
+#lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__nunc_vulputate_libero_et_velit_interdum__ac_aliquet_odio_mattis_ {
+	
+	font-size: 1.5vw;
+	text-align: left;
+	
+	margin-top: 3vw;
+	
+	color:#000080;
+    padding-right: 15vw;
+    padding-left: 3vw;
+
+    
+}
+
+
+
+
+
+.twoBottomBtn{
+
+
+    display: flex;
+    padding-left: 3vw;
+    padding-top:3vw;
+    gap:4vw;
+    
+  
+   
+    
+}
+
+.bookButton1{
+
+
+    width: 10vw;
+    height: 5vh;
+    border-radius: 1vw;
+    background-color: #0DEDA7;
+   
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0.3vw 1vw rgba(0, 0, 0, 0.2);
+
+  
+    
+    
+ 
+ 
+
+}
+
+#subframe1{
+    align-self: flex-start;
+
+}
+
+#subframe2{
+    align-self: center;
+    
+}
+
+#subframe3{
+    align-self: flex-end;
+}

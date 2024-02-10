@@ -5,7 +5,7 @@ const ExploreData = () => {
   return (
     <div>
       <div className="heading">
-        <div id="explore_data_by_categories" style={{ textAlign: "center" }}>
+        <div id="explore_data_by_categories" >
           Explore Data by Categories
           <br />
           <div id="find_the_right_data_for_your_business__choose_from_the_given_data_categories">
@@ -19,7 +19,7 @@ const ExploreData = () => {
         <div className="item1">
           <div id="title___">Fashion and lifestyle</div>
           <span id="subtitle___">
-            <img src={Flag} style={{ paddingRight: "7px" }} /> Based in India
+            <img className="indiaFlag" src={Flag}  /> Based in India
           </span>
 
           <div id="text___">
@@ -28,17 +28,17 @@ const ExploreData = () => {
             solvers, united by a passion for...
             <div
               id="bottomText"
-              style={{ height: "10vh", textAlign: "left", marginTop: "15px" }}
+             
             >
               <span id="perfect_runs_long_co">
                 {" "}
-                <b style={{ paddingRight: "1vw", color: "black" }}>100%</b>{" "}
+                <b className="boldShort" >100%</b>{" "}
                 Deterministic data{" "}
               </span>
               <br />
               <span id="perfect_runs_long_co">
                 {" "}
-                <b style={{ paddingRight: "1.8vw", color: "black" }}>
+                <b className="boldShort1">
                   1k+
                 </b>{" "}
                 Brands
@@ -47,7 +47,7 @@ const ExploreData = () => {
 
               <span id="perfect_runs_long_co">
                 {" "}
-                <b style={{ paddingRight: "1.4vw", color: "black" }}>
+                <b className="boldShort2">
                   1M+
                 </b>{" "}
                 Users{" "}
@@ -57,8 +57,8 @@ const ExploreData = () => {
                 <button id="viewDataBtn1"
                   
                 >
-                  <p
-                    style={{ fontSize: "15px", color: "white", margin: "auto" }}
+                  <p className="viewBtn"
+                    
                   >
                     View Data
                   </p>
@@ -71,7 +71,7 @@ const ExploreData = () => {
         <div className="item1">
           <div id="title___">Medical</div>
           <span id="subtitle___">
-            <img src={Flag} style={{ paddingRight: "7px" }} /> Based in India
+            <img src={Flag}  className="indiaFlag"/> Based in India
           </span>
 
           <div id="text___">
@@ -80,17 +80,17 @@ const ExploreData = () => {
             solvers, united by a passion for...
             <div
               id="bottomText"
-              style={{ height: "10vh", textAlign: "left", marginTop: "15px" }}
+             
             >
               <span id="perfect_runs_long_co">
                 {" "}
-                <b style={{ paddingRight: "1vw", color: "black" }}>100%</b>{" "}
+                <b className="boldShort">100%</b>{" "}
                 Deterministic data{" "}
               </span>
               <br />
               <span id="perfect_runs_long_co">
                 {" "}
-                <b style={{ paddingRight: "1.8vw", color: "black" }}>
+                <b className="boldShort1">
                   1k+
                 </b>{" "}
                 Brands
@@ -99,7 +99,7 @@ const ExploreData = () => {
 
               <span id="perfect_runs_long_co">
                 {" "}
-                <b style={{ paddingRight: "1.4vw", color: "black" }}>
+                <b className="boldShort2">
                   1M+
                 </b>{" "}
                 Users{" "}
@@ -110,7 +110,7 @@ const ExploreData = () => {
                  
                 >
                   <p
-                    style={{ fontSize: "15px", color: "white", margin: "auto" }}
+                  className="viewBtn"
                   >
                     View Data
                   </p>
@@ -123,7 +123,7 @@ const ExploreData = () => {
         <div className="item1">
           <div id="title___">Lawyers</div>
           <span id="subtitle___">
-            <img src={Flag} style={{ paddingRight: "7px" }} /> Based in India
+            <img src={Flag} className="indiaFlag" /> Based in India
           </span>
 
           <div id="text___">
@@ -132,17 +132,17 @@ const ExploreData = () => {
             solvers, united by a passion for...
             <div
               id="bottomText"
-              style={{ height: "10vh", textAlign: "left", marginTop: "15px" }}
+              
             >
               <span id="perfect_runs_long_co">
                 {" "}
-                <b style={{ paddingRight: "1vw", color: "black" }}>100%</b>{" "}
+                <b className="boldShort">100%</b>{" "}
                 Deterministic data{" "}
               </span>
               <br />
               <span id="perfect_runs_long_co">
                 {" "}
-                <b style={{ paddingRight: "1.8vw", color: "black" }}>
+                <b className="boldShort1">
                   1k+
                 </b>{" "}
                 Brands
@@ -151,7 +151,7 @@ const ExploreData = () => {
 
               <span id="perfect_runs_long_co">
                 {" "}
-                <b style={{ paddingRight: "1.4vw", color: "black" }}>
+                <b className="boldShort2">
                   1M+
                 </b>{" "}
                 Users{" "}
@@ -162,7 +162,7 @@ const ExploreData = () => {
                  
                 >
                   <p
-                    style={{ fontSize: "15px", color: "white", margin: "auto" }}
+                  className="viewBtn"
                   >
                     View Data
                   </p>
@@ -176,7 +176,7 @@ const ExploreData = () => {
           {" "}
           <div id="title___">Fashion and lifestyle</div>
           <span id="subtitle___">
-            <img src={Flag} style={{ paddingRight: "7px" }} /> Based in India
+            <img src={Flag} className="indiaFlag"/> Based in India
           </span>
           <div id="text___">
             At ABC Analytics, we're the pioneers of tomorrow's technology. We're
@@ -184,17 +184,16 @@ const ExploreData = () => {
             solvers, united by a passion for...
             <div
               id="bottomText"
-              style={{ height: "10vh", textAlign: "left", marginTop: "15px" }}
             >
               <span id="perfect_runs_long_co">
                 {" "}
-                <b style={{ paddingRight: "1vw", color: "black" }}>100%</b>{" "}
+                <b className="boldShort">100%</b>{" "}
                 Deterministic data{" "}
               </span>
               <br />
               <span id="perfect_runs_long_co">
                 {" "}
-                <b style={{ paddingRight: "1.8vw", color: "black" }}>
+                <b className="boldShort1">
                   1k+
                 </b>{" "}
                 Brands
@@ -203,7 +202,7 @@ const ExploreData = () => {
 
               <span id="perfect_runs_long_co">
                 {" "}
-                <b style={{ paddingRight: "1.4vw", color: "black" }}>
+                <b className="boldShort2">
                   1M+
                 </b>{" "}
                 Users{" "}
@@ -213,8 +212,7 @@ const ExploreData = () => {
                 <button id="viewDataBtn1"
                  
                 >
-                  <p
-                    style={{ fontSize: "15px", color: "white", margin: "auto" }}
+                  <p className="viewBtn"
                   >
                     View Data
                   </p>
@@ -228,7 +226,7 @@ const ExploreData = () => {
           {" "}
           <div id="title___">Medical</div>
           <span id="subtitle___">
-            <img src={Flag} style={{ paddingRight: "7px" }} /> Based in India
+            <img src={Flag} className="indiaFlag" /> Based in India
           </span>
           <div id="text___">
             At ABC Analytics, we're the pioneers of tomorrow's technology. We're
@@ -236,17 +234,17 @@ const ExploreData = () => {
             solvers, united by a passion for...
             <div
               id="bottomText"
-              style={{ height: "10vh", textAlign: "left", marginTop: "15px" }}
+              
             >
               <span id="perfect_runs_long_co">
                 {" "}
-                <b style={{ paddingRight: "1vw", color: "black" }}>100%</b>{" "}
+                <b className="boldShort">100%</b>{" "}
                 Deterministic data{" "}
               </span>
               <br />
               <span id="perfect_runs_long_co">
                 {" "}
-                <b style={{ paddingRight: "1.8vw", color: "black" }}>
+                <b className="boldShort1">
                   1k+
                 </b>{" "}
                 Brands
@@ -255,7 +253,7 @@ const ExploreData = () => {
 
               <span id="perfect_runs_long_co">
                 {" "}
-                <b style={{ paddingRight: "1.4vw", color: "black" }}>
+                <b className="boldShort2">
                   1M+
                 </b>{" "}
                 Users{" "}
@@ -266,7 +264,7 @@ const ExploreData = () => {
                  
                 >
                   <p
-                    style={{ fontSize: "15px", color: "white", margin: "auto" }}
+                  className="viewBtn"
                   >
                     View Data
                   </p>
@@ -280,7 +278,7 @@ const ExploreData = () => {
           {" "}
           <div id="title___">Lawyers</div>
           <span id="subtitle___">
-            <img src={Flag} style={{ paddingRight: "7px" }} /> Based in India
+            <img src={Flag} className="indiaFlag" /> Based in India
           </span>
           <div id="text___">
             At ABC Analytics, we're the pioneers of tomorrow's technology. We're
@@ -288,17 +286,16 @@ const ExploreData = () => {
             solvers, united by a passion for...
             <div
               id="bottomText"
-              style={{ height: "10vh", textAlign: "left", marginTop: "15px" }}
             >
               <span id="perfect_runs_long_co">
                 {" "}
-                <b style={{ paddingRight: "1vw", color: "black" }}>100%</b>{" "}
+                <b className="boldShort">100%</b>{" "}
                 Deterministic data{" "}
               </span>
               <br />
               <span id="perfect_runs_long_co">
                 {" "}
-                <b style={{ paddingRight: "1.8vw", color: "black" }}>
+                <b className="boldShort1">
                   1k+
                 </b>{" "}
                 Brands
@@ -307,7 +304,7 @@ const ExploreData = () => {
 
               <span id="perfect_runs_long_co">
                 {" "}
-                <b style={{ paddingRight: "1.4vw", color: "black" }}>
+                <b className="boldShort2">
                   1M+
                 </b>{" "}
                 Users{" "}
@@ -318,8 +315,7 @@ const ExploreData = () => {
                 
                 >
                   <p
-                    style={{ fontSize: "15px", color: "white", margin: "auto" }}
-                  >
+                  className="viewBtn"                  >
                     View Data
                   </p>
                 </button>

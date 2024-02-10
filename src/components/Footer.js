@@ -12,9 +12,9 @@ import TwitterIcon from "../assets/twitter.png";
 const Footer = () => {
   return (
     <div>
-    <div className="footerParentDiv" style={{ marginTop: "300px" }}>
+    <div className="footerParentDiv" style={{ marginTop: "100px" }}>
       <div class="footerItem1">
-        <div id="contact_directory">Contact Directory container</div>
+        <div id="contact_directory1">Contact Directory</div>
 
         <br />
         <p

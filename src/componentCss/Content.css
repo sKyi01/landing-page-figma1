@@ -1,306 +1,216 @@
-.content{
-
-    margin-top: 35px;
-
+.content {
+    margin-top: 2.5vw;
     height: 90vh;
-
     display: flex;
     width: 100%;
-    
-    
-    
-
 }
 
 #all_the_connections_you_need {
-	
-	font-size: 3vw;
-	font-weight: bold;
-	text-align: left;
-	color:#2B308B;
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: left;
+    color: #2B308B;
 }
 
-.content1{
-    width:  50%;
+.content1 {
+    width: 50%;
     padding: 3.5vw;
-    
 }
-.content2{
+
+.content2 {
     width: 50%;
     display: flex;
     height: 90%;
-    
-    
-
-  
 }
 
-.content2 img{
-
+.content2 img {
     width: 100%;
     height: 90%;
     padding-right: 140px;
 }
 
 #we_are_the_go_to_digital_resource_to_help_you_drive_outreach {
-	
-	
-	
-	font-size: 2.1vw;
-	text-align: left;
-	color:#5A81FA;
+    font-size: 2.1vw;
+    text-align: left;
+    color: #5A81FA;
     font-weight: 400;
 }
 
-
-.workMail{
-
-margin-top: 30px;
+.workMail {
+    margin-top: 2vw;
     width: 39vw;
-    height:10vh;
-    border-radius: 30px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* Adjust the values as needed */
+    height: 10vh;
+    border-radius: 3vw;
+    box-shadow: 0 0.2vw 1vw rgba(0, 0, 0, 0.3);
     display: flex;
-
-
-    
 }
 
-.workEmail1{
+.workEmail1 {
     width: 60%;
-    height:10vh;
+    height: 10vh;
     border-top-left-radius: 2vw;
-  border-bottom-left-radius: 2vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-    
-  
+    border-bottom-left-radius: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.workEmail2{
-    
-    
-    height:10vh;
-    width:40%;
+.workEmail2 {
+    height: 10vh;
+    width: 40%;
     border-top-right-radius: 2vw;
     border-bottom-right-radius: 2vw;
     background-color: #0DEDA7;
     display: flex;
-  justify-content: center;
-  align-items: center;
-  padding:7px;
+    justify-content: center;
+    align-items: center;
 }
 
 #enter_your_work_email {
-
-	
-	
-	
-	font-size: 1vw;
-	text-align: left;
-    
-	color:#696E82;
+    font-size: 1vw;
+    text-align: left;
+    color: #696E82;
 }
-
-
-
 
 #start_for_free {
-	
-	font-size: 1.3vw;
-	font-weight: bold;
-	line-height: 31px;
-	text-align: center;
-	color:#F8F9FD;
+    font-size: 1.3vw;
+    font-weight: bold;
+    text-align: center;
+    color: #F8F9FD;
 }
 
-#_bg__frame_58590 {
-	
-	width: 1237px;
-	height: 558px;
-	background:rgba(255,255,255,0);
-}
 #no_credit_card_required {
-	top: 385px;
-	left: 378px;
-	width: 152.2px;
-	height: 18.2px;
-	overflow: hidden;
-	font-family: Montserrat;
-	font-size: 12px;
-	text-align: left;
-	color:#B3AFAF;
+    font-size: 1vw;
+    text-align: right;
+    color: #B3AFAF;
+    padding-right: 3vw;
+    padding-top: 1vw;
 }
 
-
-
-
-.giButton{
-
-
+.giButton {
     display: flex;
     height: 6vh;
-    margin-top: 35px;
+    margin-top: 3.7vw;
     gap: 5vw;
 }
 
-.gButton{
-
+.gButton {
     width: 18vw;
-    border: 1px solid #C5C7E0;
-    border-radius: 20px;
+    border: 0.1vw solid #C5C7E0;
+    border-radius: 1vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
-.iButton{
+.iButton {
     width: 18vw;
-    border: 1px solid #C5C7E0;
-    border-radius: 20px;
+    border: 0.1vw solid #C5C7E0;
+    border-radius: 1vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
 }
 
 #signup_with_google {
-	
-
-	font-size: 1vw;
-	text-align: left;
-	color:#5A81FA;
+    font-size: 1vw;
+    text-align: left;
+    color: #5A81FA;
 }
 
+#freeText {
+    color: #000080;
+}
 
+.creditCard {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1.9vw;
+    margin-top: 1vw;
+}
 
+#frame2 {
+    width: 100%;
+}
 
+#googleIcon {
+    padding-right: 1vw;
+}
 
+@media (max-width: 1200px) {
+    /* Adjust styles for medium-sized screens */
+    .content2 img {
+        padding-right: 0; /* Remove padding on medium-sized screens */
+    }
+}
 
-
-
-
-@media (max-width: 768px) {
-
-    body{
-
-        margin: auto;
-
-   
-       
+@media (max-width: 992px) {
+    /* Adjust styles for small-sized screens */
+    .content1,
+    .content2 {
+        width: 100%; /* Make both sections full width on small screens */
     }
 
+    .content2 img {
+        margin-top: 5vw; /* Adjust margin for better spacing */
+    }
 
+    #all_the_connections_you_need {
+        font-size: 4vw; /* Adjust font size for better readability */
+    }
+}
 
-
-    .content{
-
-
+@media (max-width: 768px) {
+    /* Adjust styles for extra small-sized screens */
+    .content {
         display: flex;
         flex-direction: column;
         text-align: left;
         align-items: center;
-        height: 60vh;
-       
-      
-        
-       
+        height: auto; /* Remove fixed height */
     }
 
-    .content1{
-
-        width: 90vw;
-        height:25vh;
-
-        margin:auto;
-
-    
-    }
-
-    .workMail{
-
-        width:"80vw";
-        height: 3vh;
-    }
-
-    .workEmail1{
-        width:"80vw";
-        height: 3vh;
-
-    }
-    .workEmail2{
-
-        width:"80vw";
-        height: 3vh;
-    }
-    .content2 img{
-
-
-        width: 90vw;
-        height: 25vh;
+    .content1,
+    .content2 img {
+        width: 90%; /* Make both sections and images responsive on extra small screens */
         margin: auto;
-        margin-top: 10vw;
-       
     }
-    #creditCard{
-   
-        display: flex;
+
+    .content2{
+        margin-top: 10vw;
+    }
+
+    .workMail,
+    .workEmail1,
+    .workEmail2 {
+        width: 80vw;
+        height: auto; /* Adjust height for better responsiveness */
+    }
+
+    #no_credit_card_required {
+        font-size: 2.5vw;
+        padding: 3vw;
+    }
+
+    .giButton {
         flex-direction: column;
-     }
+    }
 
-     .giButton{
-
-        display: flex;
-        flex-direction: column;
-        
-     }
-
-     #googleIcon{
-
+    #googleIcon {
         width: 8vw;
-        
-     }
+    }
 
-     #frame{
-
-        margin-top: 60px;
-     }
-
-     #all_the_connections_you_need {
-
+    #all_the_connections_you_need {
         font-size: 8vw;
-        height: 20vh;;
-     }
+        height: auto; /* Remove fixed height */
+    }
 
-     #we_are_the_go_to_digital_resource_to_help_you_drive_outreach{
-
-
+    #we_are_the_go_to_digital_resource_to_help_you_drive_outreach {
         font-size: 4vw;
-     }
+    }
 
-     .workMail{
-
+    .workMail {
         width: 80%;
         overflow: auto;
-
-        
-        
-     }
-     .workEmail1{
-
-
-
-
-     }
-     #no_credit_card_required {
-
-
-        padding: 20px;
-        font-size: 2.5vw;
-        overflow: visible;
-     }
-
-}   
+    }
+}

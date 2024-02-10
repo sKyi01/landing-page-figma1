@@ -17,12 +17,13 @@
 
 }
 
-#contact_directory {
+#contact_directory1 {
 	
 	
-	font-size: 28px;
+	font-size: 2vw;
 	font-weight: 600;
     color:#2B308B;
+    
    
    
     
@@ -31,9 +32,10 @@
 #lorem_ipsum_dolor_sit {
 	
 
-	font-size: 20px;
+	font-size: 1.5vw;
 	
 	color:#5A81FA;
+    text-align: left;
 }
 
 .footerItem1{

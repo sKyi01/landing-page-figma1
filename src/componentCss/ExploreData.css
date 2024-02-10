@@ -20,20 +20,22 @@
 .categories .item1{
 
 	width: 27%;
-	height: 54vh;
-	margin-left: 20px;
-	margin-right: 20px;
+	height: 57vh;
+	margin-left: 2vw;
+	margin-right: 2vw;
 
 	text-align: left;
-	padding-top: 30px;
-	padding-left: 25px;
-	padding-right: 40px;
-	border-radius: 20px;
+	padding-top: 2vw;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	border-radius: 1vw;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
 
 
 
 }
+
+
 
 
 
@@ -44,6 +46,8 @@
 	text-align: left;
 	color:#2B308B;
 	font-weight: 500;
+	text-align: center;
+
 }
 
 #find_the_right_data_for_your_business__choose_from_the_given_data_categories {
@@ -53,7 +57,7 @@
 	font-weight: bold;
 	text-align: left;
 	color:#808080;
-	margin-top: 10px;
+	margin-top: 0.8vw;
 }
 
 .heading{
@@ -69,9 +73,8 @@
 	
 	font-size: 1.7vw;
 	font-weight: bold;
-	line-height: 35.4px;
 	text-align: left;
-	line-height: 32.645453453064px;
+	line-height:3vw;
 	color:#000080;
 	
 	
@@ -79,10 +82,9 @@
 
 #subtitle___ {
 	
-	font-size: 13.94px;
-	line-height: 18.394413375854px;
+	font-size: 0.9vw;
+	line-height: 1vw;
 	
-	line-height: 18.961567547321px;
 	color:#16192C;
 	
 
@@ -93,14 +95,13 @@
 	
 	
 	
-	font-size: 16.27px;
-	font-weight: bold;
+	font-size: 1.1vw;
+	font-weight: 500;
 	
 	
 	
-	height: 160.89681560516px;
 	color:#808080;
-	margin-top: 20px;
+	margin-top: 2vw;
 	
 }
 
@@ -109,13 +110,17 @@
 
 	font-size: 1vw;
 	text-align: left;
-	line-height: 27.88826751709px;
+	line-height: 2vw;
 	margin-top: -3.8727558390299px;
 	height: 104.89681560516px;
 	color:#808080;
 }
 
-.bottomText{
+#bottomText{
+
+	height: 10vh;
+	 text-align: left;
+	 margin-top: 15px;
 
 	
 
@@ -126,7 +131,7 @@
 
 #viewDataBtn{
 
-	margin-top: 40px;
+	margin-top: 1.2vw;
 
 	display: flex;
 	justify-content: flex-end;
@@ -138,7 +143,7 @@
 
 #viewDataBtn1{
 
-	border-radius: 5px;
+	border-radius: 0.4vw;
 	background-color: #0DEDA7;
 	width: 7vw;
 	height: 4.5vh;
@@ -150,6 +155,40 @@
 
 }
 
+.indiaFlag{
+	padding-right: 7px;
+}
+
+
+
+.boldShort{
+	padding-right: 1vw; 
+	color: black;
+}
+
+.boldShort1{
+	padding-right: 1.8vw; 
+	color: black;
+
+}
+.boldShort2{
+	padding-right: 1.4vw; 
+	color: black;
+}
+
+
+
+
+.viewBtn{
+
+	font-size: 15px;
+	 color: white;
+	  margin: auto;
+}
+
+
+
+
 
 @media (max-width: 768px) {
 
@@ -160,11 +199,23 @@
 
 		display: flex;
 		flex-direction: column;
-		flex-wrap: nowrap;
-		width: 300vw;
-		height: 90%;
-		margin: auto;
+		justify-content: center;
+		align-items: center;
+		flex-wrap:nowrap;
+		width: 100%; 
+		border: 1px solid black;
+		padding-top: 30vw;
+		
 
+	}
+	.item1{
+
+		width: 100%;
+		height: 3vh;
+		border: 1px solid black;
+
+
+		
 	}
 
 	#viewDataBtn1{
@@ -174,7 +225,7 @@
 
 	#title___ {
 
-		font-size: 5vw;
+		font-size: 50%;
 	}
 
 

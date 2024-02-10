@@ -3,6 +3,10 @@ import "../componentCss/VideoContents.css";
 import VideoPlayer from "../assets/videoPlayer.png";
 import CharmTick from "../assets/charm_tick.png";
 import BaseBtn from "../assets/base.png";
+import bottomAnimation from "../assets/bottomAnimation.png";
+import subframe1 from "../assets/sunframe1.png";
+import subframe2 from "../assets/sunframe2.png";
+import subframe3 from "../assets/sunframe3.png";
 
 const VideoContents = () => {
   return (
@@ -70,7 +74,9 @@ const VideoContents = () => {
 
       <div className="dataNote">
         <div className="dataNote1">
-          <div style={{paddingLeft:"1vw"}} id="data_inspired">Data Inspired</div>
+          <div style={{ paddingLeft: "1vw" }} id="data_inspired">
+            Data Inspired
+          </div>
           <div id="__p__lorem_ipsum_dolor_sit_amet_consectetur__mauris_tellus_risus_ac_sagittis_eu__lectus_sit_sodales_pulvinar_egestas__hendrerit_diam_mi_egestas_venenatis__blandit_curabitur_in_eu_sed_sit_sit_nullam_sem_">
             Lorem ipsum dolor sit amet consectetur. Mauris tellus risus ac
             sagittis eu. Lectus sit sodales pulvinar egestas. Hendrerit diam mi
@@ -79,7 +85,9 @@ const VideoContents = () => {
         </div>
 
         <div className="dataNote2">
-          <div style={{paddingLeft:"3vw"}} id="data_inspired">Corporate social responsibility</div>
+          <div style={{ paddingLeft: "3vw" }} id="data_inspired">
+            Corporate social responsibility
+          </div>
           <div id="" className="dataNote2Padding">
             Lorem ipsum dolor sit amet consectetur. Mauris tellus risus ac
             sagittis eu. Lectus sit sodales pulvinar egestas. Hendrerit diam mi
@@ -88,13 +96,52 @@ const VideoContents = () => {
         </div>
 
         <div className="dataNote3">
-          <div style={{paddingLeft:"2vw"}} id="data_inspired">Machine learning</div>
+          <div style={{ paddingLeft: "2vw" }} id="data_inspired">
+            Machine learning
+          </div>
           <div id="__p__lorem_ipsum_dolor_sit_amet_consectetur__mauris_tellus_risus_ac_sagittis_eu__lectus_sit_sodales_pulvinar_egestas__hendrerit_diam_mi_egestas_venenatis__blandit_curabitur_in_eu_sed_sit_sit_nullam_sem_">
             Lorem ipsum dolor sit amet consectetur. Mauris tellus risus ac
             sagittis eu. Lectus sit sodales pulvinar egestas. Hendrerit diam mi
             egestas venenatis. Blandit curabitur in eu sed sit sit nullam sem.
           </div>
         </div>
+      </div>
+
+      <div className="signContact">
+        <div className="signContact1">
+          <div id="contact_directory_bottom">
+            <span id="signUp">Sign up to the </span>Contact Directory
+          </div>
+          <div id="lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__nunc_vulputate_libero_et_velit_interdum__ac_aliquet_odio_mattis_">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            vulputate libero et velit interdum, ac aliquet odio mattis.
+          </div>
+
+          <div className="twoBottomBtn">
+            <a className="bookButton1"  href="#">
+              Get started today
+            </a>
+
+            <a className="bookButton1"  href="#">
+            Book a free demo
+            </a>
+          </div>
+        </div>
+
+        <div className="signContact2">
+
+        <img id="subframe1" src={subframe1}/>
+        <img id="subframe2"  src={subframe2}/>
+
+        <img id="subframe3"  src={subframe3}/>
+
+        
+        </div>
+
+
+
+
+        
       </div>
     </div>
   );

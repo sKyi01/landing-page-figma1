@@ -26,7 +26,7 @@ const Content = () => {
 
               <div className="workEmail2">
                 <div id="start_for_free">
-                  Start For <span style={{ color: "#000080" }}>Free</span>
+                  Start For <span id="freeText" >Free</span>
                 </div>
               </div>
 
@@ -35,12 +35,7 @@ const Content = () => {
           </div>
 
           <div id="creditCard"
-            style={{
-              display: "flex",
-              justifyContent: "flex-end",
-              paddingRight: "1.9vw",
-              marginTop:"20px"
-            }}
+            
           >
             <div id="no_credit_card_required"><span><img src={Vector}/> No credit card required</span></div>
           </div>
@@ -49,7 +44,7 @@ const Content = () => {
 
           <div className="gButton">
 
-          <span id="signup_with_google"><a href="#"><img id="googleIcon" style={{paddingRight:"25px"}} src={GoogleIcon}/>
+          <span id="signup_with_google"><a href="#"><img id="googleIcon" src={GoogleIcon}/>
           Signup with Google</a>
         </span>
           
@@ -58,7 +53,7 @@ const Content = () => {
     
           <div className="iButton">
 
-          <span id="signup_with_google"><a href="#"><img style={{paddingRight:"25px"}} id="googleIcon" src={LinkedInIcon}/>
+          <span id="signup_with_google"><a href="#"><img  id="googleIcon" src={LinkedInIcon}/>
           Signup with LinkedIn</a>
         </span>
           
@@ -86,7 +81,7 @@ const Content = () => {
       
 
       <div>
-        <img style={{ width: "100%" }} src={Frame2} />
+        <img id="frame2"  src={Frame2} />
       </div>
 
 

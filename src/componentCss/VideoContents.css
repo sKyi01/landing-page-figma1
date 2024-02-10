@@ -162,7 +162,7 @@
         display: flex;
         flex-direction: column;
         width: 160vw;
-        height: 60%;
+       
         padding:20px;
         
     }
@@ -176,6 +176,11 @@
     
     
     
+    }
+
+    .dataNote{
+        display: flex;
+        flex-direction: column;
     }
 
 

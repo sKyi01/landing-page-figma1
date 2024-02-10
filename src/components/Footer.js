@@ -12,20 +12,19 @@ import TwitterIcon from "../assets/twitter.png";
 const Footer = () => {
   return (
     <div>
-    <div className="footerParentDiv" style={{ marginTop: "100px" }}>
+    <div className="footerParentDiv" >
       <div class="footerItem1">
         <div id="contact_directory1">Contact Directory</div>
 
         <br />
         <p
           id="lorem_ipsum_dolor_sit"
-          style={{ textAlign: "left", marginLeft: "6%" }}
         >
           fsdfffofj df d
         </p>
         <br />
 
-        <p style={{ textAlign: "left", marginLeft: "6%" }}>
+        <p id="footerDesc" >
           ight of the container or parent element to which these styles are
           applied. Once you have that information, you can use the fo
         </p>
@@ -41,14 +40,14 @@ const Footer = () => {
 </div>
 <br/>
 
-<div style={{}}>
-<a href="#" style={{ color: '#000080',fontWeight:600 }}><img src={HomeButton} alt="Home" /> New York, NY 10012, US</a>
+<div >
+<a href="#" className="footerContactDesc" ><img className="footerSubBtn" src={HomeButton} alt="Home" /> New York, NY 10012, US</a>
 <br /><br />
-<a  href="#" style={{ color: '#000080',fontWeight:600  }}><img src={MailIcon} alt="mail" /> info@gmail.com</a>
+<a  href="#" className="footerContactDesc" ><img className="footerSubBtn" src={MailIcon} alt="mail" /> info@gmail.com</a>
 <br /><br />
-<a href="#"  style={{ color: '#000080' ,fontWeight:600 }}><img src={PhoneIcon} /> + 01 234 567 88</a>
+<a href="#" className="footerContactDesc" ><img className="footerSubBtn" src={PhoneIcon} /> + 01 234 567 88</a>
 <br /><br />
-<a href="#" style={{ color: '#000080',fontWeight:600  }}><img src={TeleIcon} /> + 01 234 567 89</a>
+<a href="#" className="footerContactDesc" ><img className="footerSubBtn" src={TeleIcon} /> + 01 234 567 89</a>
 </div>
 
       
@@ -60,13 +59,13 @@ const Footer = () => {
     </div>
     <br/>
 
-    <a href="#" style={{ color: '#000080',fontWeight:600 }}> Platform</a>
+    <a href="#" className="footerContactDesc"> Platform</a>
     <br/><br/>
-    <a href="#" style={{ color: '#000080',fontWeight:600 }}> Discover</a>
+    <a href="#" className="footerContactDesc"> Discover</a>
     <br/><br/>
-    <a href="#" style={{ color: '#000080',fontWeight:600 }}> Resources</a>
+    <a href="#" className="footerContactDesc"> Resources</a>
     <br/><br/>
-    <a href="#" style={{ color: '#000080',fontWeight:600 }}> Job</a>
+    <a href="#" className="footerContactDesc"> Job</a>
 
       
       
@@ -83,13 +82,13 @@ const Footer = () => {
 
     <br/>
 
-    <a href="#" style={{ color: '#000080',fontWeight:600 }}> Your Account</a>
+    <a href="#" className="footerContactDesc"> Your Account</a>
     <br/><br/>
-    <a href="#" style={{ color: '#000080',fontWeight:600 }}> Discover</a>
+    <a href="#" className="footerContactDesc"> Discover</a>
     <br/><br/>
-    <a href="#" style={{ color: '#000080',fontWeight:600 }}> Connections</a>
+    <a href="#" className="footerContactDesc"> Connections</a>
     <br/><br/>
-    <a href="#" style={{ color: '#000080',fontWeight:600 }}> Help</a>
+    <a href="#" className="footerContactDesc"> Help</a>
       
       
       
@@ -110,10 +109,10 @@ const Footer = () => {
     </div>
     <div class="socialIcons">
 
-    <span><img style={{width:"3vw",height:"5vg"}} src={FacebookIcon}/></span>
-    <span><img style={{width:"3vw",height:"5vg"}} src={LinkedinIcon}/></span>
-    <span><img style={{width:"3vw",height:"5vg"}} src={TwitterIcon}/></span>
-    <span><img style={{width:"3vw",height:"5vg"}} src={TwitterIcon}/></span>
+    <span ><img className="socialIconsInner"  src={FacebookIcon}/></span>
+    <span><img className="socialIconsInner" src={LinkedinIcon}/></span>
+    <span><img className="socialIconsInner" src={TwitterIcon}/></span>
+    <span><img className="socialIconsInner" src={TwitterIcon}/></span>
 
 
 
@@ -128,7 +127,7 @@ const Footer = () => {
       <div className="line">
       
       </div>
-      <footer id="__p__contact" style={{marginTop:"20px",fontSize:"1.3vw"}}>
+      <footer id="__p__contact" >
       <p>&copy; 2022 Copyright: @BlackCoffer (OPC) Pvt. Ltd</p>
     </footer>
 

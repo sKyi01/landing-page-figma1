@@ -29,12 +29,7 @@ const VideoContents = () => {
 
             <div
               id="note2"
-              style={{
-                textAlign: "left",
-                marginTop: "30px",
-                paddingLeft: "50px",
-                lineHeight: "3",
-              }}
+              
             >
               <span id="average_95__accuracy_for_data_points">
                 <img src={CharmTick} /> Average 95% Accuracy for Data Points
@@ -54,16 +49,13 @@ const VideoContents = () => {
               </span>
 
               <div
-                style={{
-                  display: "flex",
-                  alignSelf: "center",
-                  justifyContent: "center",
-                  paddingTop: "50px",
-                }}
+
+              id="noteBtn"
+               
               >
-                <button style={{ border: "none", outline: "none" }}>
+                <button id="noteBtnRes">
                   <span>
-                    <img src={BaseBtn} />
+                    <img id="noteBtnImg" src={BaseBtn} />
                   </span>
                 </button>
               </div>
@@ -74,7 +66,7 @@ const VideoContents = () => {
 
       <div className="dataNote">
         <div className="dataNote1">
-          <div style={{ paddingLeft: "1vw" }} id="data_inspired">
+          <div  id="data_inspired">
             Data Inspired
           </div>
           <div id="__p__lorem_ipsum_dolor_sit_amet_consectetur__mauris_tellus_risus_ac_sagittis_eu__lectus_sit_sodales_pulvinar_egestas__hendrerit_diam_mi_egestas_venenatis__blandit_curabitur_in_eu_sed_sit_sit_nullam_sem_">
@@ -85,7 +77,7 @@ const VideoContents = () => {
         </div>
 
         <div className="dataNote2">
-          <div style={{ paddingLeft: "3vw" }} id="data_inspired">
+          <div id="data_inspired2">
             Corporate social responsibility
           </div>
           <div id="" className="dataNote2Padding">
@@ -96,7 +88,7 @@ const VideoContents = () => {
         </div>
 
         <div className="dataNote3">
-          <div style={{ paddingLeft: "2vw" }} id="data_inspired">
+          <div id="data_inspired">
             Machine learning
           </div>
           <div id="__p__lorem_ipsum_dolor_sit_amet_consectetur__mauris_tellus_risus_ac_sagittis_eu__lectus_sit_sodales_pulvinar_egestas__hendrerit_diam_mi_egestas_venenatis__blandit_curabitur_in_eu_sed_sit_sit_nullam_sem_">

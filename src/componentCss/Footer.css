@@ -93,6 +93,7 @@
 }
 
 .line {
+    margin: auto;
     border-bottom: 0.2vw solid #5A81FA; /* You can set the color to your preference */
   }
 

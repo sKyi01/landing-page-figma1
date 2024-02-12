@@ -15,7 +15,7 @@ const Header = () => {
 
 
       <div class="navBarRight">
-        <a class="headerMenu" href="#">
+        <a class="headerMenu  " href="#">
           How it works
         </a>
         <a class="headerMenu " href="#">
@@ -30,7 +30,7 @@ const Header = () => {
 
       
           <a className="bookButton" id="booFreeColor" href="#">
-            <spann id="freeDemoText">Book a free demo</spann>
+            <span id="freeDemoText">Book a free demo</span>
           </a>
         
 

@@ -32,20 +32,20 @@ const VideoContents = () => {
               
             >
               <span id="average_95__accuracy_for_data_points">
-                <img src={CharmTick} /> Average 95% Accuracy for Data Points
+                <img className="CharmTick" src={CharmTick} /> Average 95% Accuracy for Data Points
               </span>
               <br />
               <span id="average_95__accuracy_for_data_points">
-                <img src={CharmTick} /> Updated Every 90 days to Ensure
+                <img className="CharmTick" src={CharmTick} /> Updated Every 90 days to Ensure
                 Freshness
               </span>
               <br />
               <span id="average_95__accuracy_for_data_points">
-                <img src={CharmTick} /> Real-Time Data verification on Exports
+                <img  className="CharmTick" src={CharmTick} /> Real-Time Data verification on Exports
               </span>
               <br />
               <span id="average_95__accuracy_for_data_points">
-                <img src={CharmTick} /> Data Quality guaranteed
+                <img className="CharmTick" src={CharmTick} /> Data Quality guaranteed
               </span>
 
               <div
@@ -67,7 +67,7 @@ const VideoContents = () => {
       <div className="dataNote">
         <div className="dataNote1">
           <div  id="data_inspired">
-            Data Inspired
+            <p className="dataHeading">Data Inspired</p>
           </div>
           <div id="__p__lorem_ipsum_dolor_sit_amet_consectetur__mauris_tellus_risus_ac_sagittis_eu__lectus_sit_sodales_pulvinar_egestas__hendrerit_diam_mi_egestas_venenatis__blandit_curabitur_in_eu_sed_sit_sit_nullam_sem_">
             Lorem ipsum dolor sit amet consectetur. Mauris tellus risus ac
@@ -78,7 +78,7 @@ const VideoContents = () => {
 
         <div className="dataNote2">
           <div id="data_inspired2">
-            Corporate social responsibility
+            <p className="dataHeading">Corporate social responsibility</p>
           </div>
           <div id="" className="dataNote2Padding">
             Lorem ipsum dolor sit amet consectetur. Mauris tellus risus ac
@@ -89,7 +89,7 @@ const VideoContents = () => {
 
         <div className="dataNote3">
           <div id="data_inspired">
-            Machine learning
+           <p className="dataHeading"> Machine learning </p>
           </div>
           <div id="__p__lorem_ipsum_dolor_sit_amet_consectetur__mauris_tellus_risus_ac_sagittis_eu__lectus_sit_sodales_pulvinar_egestas__hendrerit_diam_mi_egestas_venenatis__blandit_curabitur_in_eu_sed_sit_sit_nullam_sem_">
             Lorem ipsum dolor sit amet consectetur. Mauris tellus risus ac

@@ -213,4 +213,42 @@
         width: 80%;
         overflow: auto;
     }
+
+    .gButton {
+       width: 80%;
+       
+
+        
+    }
+    .iButton {
+        width: 80%;
+         
+     }
+
+     #signup_with_google {
+        font-size: 90%;
+        text-align: left;
+        color: #5A81FA;
+    }
+    #googleIcon {
+        padding-right:4vw;
+
+        
+
+    }
+
+    #enter_your_work_email{
+        font-size: 2.5vw;
+    }
+
+    #start_for_free{
+        font-size: 2.5vw;
+
+    }
+
+ 
+    
+
+   
+
 }

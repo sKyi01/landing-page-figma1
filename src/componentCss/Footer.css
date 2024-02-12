@@ -1,171 +1,119 @@
-
-
-.footerParentDiv{
-
-  display:flex;
-  margin-top: 8vw;
- 
+.footerParentDiv {
+    display: flex;
+    margin-top: 8vw;
+  }
   
- 
-
-
-
-
-
-
-
-
-}
-
-#contact_directory1 {
-	
-	
-	font-size: 2vw;
-	font-weight: 600;
-    color:#2B308B;
-    
-   
-   
-    
-}
-
-#lorem_ipsum_dolor_sit {
-	
-
-	font-size: 1.5vw;
-	
-	color:#5A81FA;
+  #contact_directory1 {
+    font-size: 2vw;
+    font-weight: 600;
+    color: #2b308b;
+  }
+  
+  #lorem_ipsum_dolor_sit {
+    font-size: 1.5vw;
+    color: #5a81fa;
     text-align: left;
-    text-align: left;
-     margin-left: 6%;
-}
-
-.footerItem1{
-
-
+    margin-left: 6%;
+  }
+  
+  .footerItem1 {
     width: 20vw;
     height: 30vh;
-    
-}
-
-.footerItem2{
-
-    width:80vw;
-    
-
+  }
+  
+  .footerItem2 {
+    width: 80vw;
     display: flex;
-
     text-align: left;
     justify-content: flex-end;
-   margin-right: 1vw;
-   gap: 8vw
-
+    margin-right: 1vw;
+    gap: 8vw;
+  }
   
-    
-
-
-
-}
-#__p__contact {
-
-	font-size: 1vw;
-	
-	color:#5A81FA;
-
-    margin-top:1vw;
-    font-size:1.3vw
-}
-
-
-.socialIcons{
-
+  #__p__contact {
+    font-size: 1vw;
+    color: #5a81fa;
+    margin-top: 1vw;
+    font-size: 1.3vw;
+  }
+  
+  .socialIcons {
     margin: 2vw;
-
     height: 20vh;
     display: flex;
     justify-content: center;
-    gap:5vw;
+    gap: 5vw;
     align-items: flex-end;
-
-
-
-    
-}
-
-.line {
-    margin: auto;
-    border-bottom: 0.2vw solid #5A81FA; /* You can set the color to your preference */
   }
-
-#footerDesc{
-
-    text-align: left;
-     margin-left: 6% ;
-     font-size: 1.2vw;
-     
-
-}
-
-
-
-.footerContactDesc{
-    color: #000080;
-    font-weight:600;
-    font-size: 1.1vw;
-
-}
-
-
-
-
-.socialIconsInner{
-    width:3vw;
-}
-
-.footerSubBtn{
-
-    width: 1.5vw;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  @media (max-width: 767px) {
   
-
-    .footerParentDiv{
-    
-
-       
-       
-
+  .line {
+    margin: auto;
+    border-bottom: 0.2vw solid #5a81fa; /* You can set the color to your preference */
+  }
+  
+  #footerDesc {
+    text-align: left;
+    margin-left: 6%;
+    font-size: 1.2vw;
+  }
+  
+  .footerContactDesc {
+    color: #000080;
+    font-weight: 600;
+    font-size: 1.1vw;
+  }
+  
+  .socialIconsInner {
+    width: 3vw;
+  }
+  
+  .footerSubBtn {
+    width: 1.5vw;
+  }
+  
+  @media (max-width: 767px) {
+    .footerParentDiv {
+        margin-top: 10vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
     }
-    .footerItem1{
-        
-    
-
+  
+    .footerItem1 {
+      width: 100%; /* Adjust width for smaller screens */
     }
-    .footerItem2{
-
-        
-
-        
-
+  
+    .footerItem2 {
+      width: 100%;
+      justify-content: flex-start; /* Adjust alignment for smaller screens */
+      gap: 2vw; /* Adjust gap for smaller screens */
     }
-    
+  
+    .socialIcons {
+      align-items: center; /* Center social icons for smaller screens */
+    }
+  
+    #contact_directory1,
+    #lorem_ipsum_dolor_sit,
+    #__p__contact,
+    #footerDesc,
+    .footerContactDesc {
+      font-size: 4vw; /* Adjust font sizes for smaller screens */
+    }
+  
+    .line {
+      width: 80%; /* Adjust line width for smaller screens */
+    }
 
 
+    .socialIconsInner{
+        width: 10vw;
+    }
 
-
+    .footerSubBtn{
+        width: 4vw;
+    }
   }
   

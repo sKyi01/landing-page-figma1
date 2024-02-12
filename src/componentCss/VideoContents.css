@@ -17,7 +17,7 @@
 
   height: 80%;
 
-  border-radius: 15px;
+  border-radius: 1vw;
   padding: 2vw;
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
 }
@@ -27,7 +27,7 @@
 
   height: 80%;
 
-  border-radius: 15px;
+  border-radius: 1vw;
   padding: 2vw;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
@@ -37,7 +37,7 @@
 
   height: 80%;
 
-  border-radius: 15px;
+  border-radius: 1vw;
   padding: 2vw;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
@@ -61,15 +61,15 @@
 #note1 {
   width: 80%;
   height: 80%;
-  border: 1px solid;
-  border-radius: 10px;
+  border: 0.1vw solid;
+  border-radius: 1vw;
   background-color: #f0f3fc;
   border-color: #5a81fa;
 }
 
 #videoPlayerSize {
   width: 80%;
-  border-radius: 10px;
+  border-radius: 1vw;
 }
 
 #contact_directory_only_provides_premium_quality_contacts_from_trusted_sources_to_keep_our_database_accurate_and_up_to_date_ {
@@ -88,13 +88,12 @@
 #average_95__accuracy_for_data_points {
   font-size: 1.2vw;
   text-align: center;
-  line-height: 32px;
+  line-height: 2.5vw;
 
-  height: 122px;
-  letter-spacing: 0.10000000149012px;
+  letter-spacing: 0.001vw;
   color: #000000;
-  padding: 15px;
-  margin-top: 20px;
+  padding: 1vw;
+  margin-top: 2vw;
   font-weight: 500;
 }
 
@@ -114,6 +113,10 @@
     justify-content: center;
     padding-top: 3.5vw;
     
+}
+
+.CharmTick{
+  width: 1.8vw;
 }
 
 
@@ -143,27 +146,7 @@
 
 
 
-@media (max-width: 767px) {
-  .videoContentsMain {
-    margin-top: 30vw;
-    display: flex;
-    flex-direction: column;
-    width: 160vw;
 
-    padding: 20px;
-  }
-
-  .Note {
-    margin-top: 30vw;
-
-    width: 90vw;
-  }
-
-  .dataNote {
-    display: flex;
-    flex-direction: column;
-  }
-}
 
 #data_inspired {
   font-size: 1.9vw;
@@ -289,5 +272,207 @@
 #subframe3 {
   align-self: flex-end;
   width: 12.7vw;
+
+}
+
+
+
+
+@media (max-width: 767px) {
+
+
+
+  .videoContentsMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto; /* Remove fixed height */
+    margin-top: 10vw;
+
+  }
+
+  .Note {
+    margin-top: 20vw;
+
+    width: 90vw;
+  }
+
+  .dataNote {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  .videoPlayer{
+
+    width:100% ;
+  }
+
+  #contact_directory_only_provides_premium_quality_contacts_from_trusted_sources_to_keep_our_database_accurate_and_up_to_date_ {
+    font-size: 1.2vh;
+    text-align: center;
+    line-height: 1.8vh;
+  
+    height: 14.5vh;
+    letter-spacing: 0.01vh;
+    color: #000000;
+    padding: 1vh;
+    margin-top: 1vh;
+    font-weight: 500;
+  }
+  #average_95__accuracy_for_data_points {
+    font-size: 1.2vh;
+    text-align: center;
+    line-height: 3vh;
+  
+    height: 12vh;
+    color: #000000;
+    padding: 15px;
+    margin-top: 1vh;
+    font-weight: 500;
+  }
+  #noteBtnImg{
+
+    width: 30vw;
+
+
+
+  }
+
+  .dataNote{
+
+    width: 100%;
+    margin: auto;
+    height: auto;
+    gap:4vh;
+    margin-top:4vh
+  }
+
+  .dataNote1{
+   margin: auto;
+   width: auto;
+   
+  }
+  .dataNote2{
+    margin: auto;
+    width: auto;
+
+   }
+   .dataNote3{
+    margin: auto;
+    width: auto;
+
+   }
+
+   #data_inspired{
+
+    font-size: 100%;
+   }
+
+
+#__p__lorem_ipsum_dolor_sit_amet_consectetur__mauris_tellus_risus_ac_sagittis_eu__lectus_sit_sodales_pulvinar_egestas__hendrerit_diam_mi_egestas_venenatis__blandit_curabitur_in_eu_sed_sit_sit_nullam_sem_{
+
+
+
+  font-size: 5vw;
+
+}
+
+.dataNote2Padding {
+  font-size: 5vw;
+  text-align: left;
+color: #696e82;
+padding-top: 2vw;
+}
+
+.dataHeading{
+
+  font-size: 5vw;
+}
+  
+.signContact{
+
+  margin-top: 25vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+
+#contact_directory_bottom{
+  font-size:5vw;
+}
+
+#signUp{
+  font-size:5vw;
+
+
+}
+
+#lorem_ipsum_dolor_sit_amet__consectetur_adipiscing_elit__nunc_vulputate_libero_et_velit_interdum__ac_aliquet_odio_mattis_ {
+  font-size: 4vw;
+  text-align: left;
+
+  margin-top: 3vw;
+
+  color: #000080;
+ 
+  padding-left: 3vw;
+}
+.signContact1{
+
+  width: 90%;
+}
+
+.twoBottomBtn {
+  width: 90%;
+  margin-bottom: 5vw;
+}
+
+.bookButton1 {
+  width: 50%;
+  height: 4vh;
+  border-radius: 1vw;
+  background-color: #0deda7;
+
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
+}
+
+#subframe1 {
+ 
+  width: 30vw;
+}
+#subframe2 {
+ 
+  width: 30vw;
+  padding-top: 1vw;
+}
+#subframe3 {
+ 
+  width: 30vw;
+  padding-top: 30vw;
+}
+
+.signContact2{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+
+
+}
+
+
+
 
 }

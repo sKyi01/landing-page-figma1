@@ -150,3 +150,51 @@
 
 	font-size: 1vw;
 }
+
+
+@media (max-width: 767px) {
+
+	#contact_directory {
+	
+		font-size: 3vw;
+	
+		
+	
+	}
+
+	#group_145{
+		width:9vw;
+	}
+	
+	.bookButton{
+		width: 12vw;
+		height: 2vh;
+		background-color:  #0DEDA7;
+	
+		border-radius: 1vw;
+		display: grid;
+		align-items: center;
+		color:white;
+		box-shadow: 0 0.3vw 1vw rgba(0, 0, 0, 0.2);
+		margin-left: 5vw ;
+		
+	}
+
+	#contactIcon{
+
+		width: 5vw;
+		
+		
+	}
+	#freeDemoText{
+		font-size: 1.3vw;
+	}
+
+
+
+
+
+
+
+}
+

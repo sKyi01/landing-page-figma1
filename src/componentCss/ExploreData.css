@@ -194,43 +194,80 @@
 
 	
 
-	.categories{
+	@media (max-width: 768px) {
+		.categories {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			flex-wrap: nowrap;
+			width: 100%;
+			padding-top: 15vw;
+			height: auto;
+		}
+	
+		.categories .item1 {
+			width: 100%;
+			height: auto;
+			margin: 2vw 0;
+		}
+	
+		#viewDataBtn1 {
+			width: 60%;
+		}
+	
+		#title___ {
+			font-size: 8vw;
+			line-height: 10vw;
+		}
+	
+		.heading {
+			width: 100%;
+		}
+	
+		#explore_data_by_categories {
+			font-size: 8vw;
+			width: 100%;
+			height: 20%;
+		}
+	
+		#exploreData {
+			font-size: 8vw;
+		}
+
+		#find_the_right_data_for_your_business__choose_from_the_given_data_categories{
+			font-size: 3vw;
+			text-align: center;
+		}
+		#subtitle___{
+			font-size: 4vw;
+		}
+
+		#text___{
+			font-size: 4vw;
 
 
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex-wrap:nowrap;
-		width: 100%; 
-		border: 1px solid black;
-		padding-top: 30vw;
+		}
+		.boldShort{
+			font-size: 3vw;
+
+		}
+		.boldShort1{
+			font-size: 3vw;
+
+		}
+		.boldShort2{
+			font-size: 3vw;
+
+		}
+		.viewBtn{
+			font-size: 4vw;
+
+
+		}
 		
-
 	}
-	.item1{
-
-		width: 100%;
-		height: 3vh;
-		border: 1px solid black;
-
-
-		
-	}
-
-	#viewDataBtn1{
-
-		width: 40%;
-	}
-
-	#title___ {
-
-		font-size: 50%;
-	}
-
-
-
-
+	
 
 
 

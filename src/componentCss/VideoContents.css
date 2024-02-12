@@ -277,12 +277,17 @@
 
 #subframe1 {
   align-self: flex-start;
+  width: 12.7vw;
 }
 
 #subframe2 {
   align-self: center;
+  width: 12.7vw;
+
 }
 
 #subframe3 {
   align-self: flex-end;
+  width: 12.7vw;
+
 }

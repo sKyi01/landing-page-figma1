@@ -26,7 +26,6 @@
 .content2 img {
     width: 100%;
     height: 90%;
-    padding-right: 140px;
 }
 
 #we_are_the_go_to_digital_resource_to_help_you_drive_outreach {
@@ -135,6 +134,7 @@
 
 #googleIcon {
     padding-right: 1vw;
+    width: 3vw;
 }
 
 @media (max-width: 1200px) {
